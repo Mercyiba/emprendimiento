@@ -64,8 +64,8 @@ class reportar extends StatelessWidget {
                   ),
                   Image.asset(
                     'assets/logo2.png',
-                    width: 100, // Ajusta el ancho según tus preferencias
-                    height: 98, // Ajusta la altura según tus preferencias
+                    width: 100, 
+                    height: 98, 
                   ), //
                 ],
               ),
@@ -80,8 +80,8 @@ class reportar extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => MapScreen()),
-                ); // Cierra el Drawer
-                // Agrega la lógica para navegar a la página de inicio aquí
+                ); 
+                
               },
             ),
             ListTile(
@@ -94,8 +94,8 @@ class reportar extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => accesorios()),
-                ); // Cierra el Drawer
-                // Agrega la lógica para navegar a la página "Acerca de" aquí
+                ); 
+                
               },
             ),
             ListTile(
@@ -108,8 +108,8 @@ class reportar extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => reportar()),
-                ); // Cierra el Drawer
-                // Agrega la lógica para navegar a la página "Acerca de" aquí
+                ); 
+                
               },
             ),
             ListTile(
@@ -118,19 +118,16 @@ class reportar extends StatelessWidget {
                 'Cerrar sesión',
                 style: TextStyle(
                   color: Colors.red,
-                  // Cambia el color del texto a rojo
                   fontSize: 20.0,
-                  // Cambia el tamaño de la fuente según tus preferencias
                   fontWeight: FontWeight
-                      .bold, // Cambia el peso de la fuente según tus preferencias
+                      .bold, 
                 ),
               ),
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => LoginScreen()),
-                ); // Cierra el Drawer
-                // Agrega la lógica para navegar a la página "Acerca de" aquí
+                ); 
               },
             ),
             ListTile(
@@ -138,19 +135,17 @@ class reportar extends StatelessWidget {
                 'Pruebaaaa',
                 style: TextStyle(
                   color: Colors.red,
-                  // Cambia el color del texto a rojo
                   fontSize: 20.0,
-                  // Cambia el tamaño de la fuente según tus preferencias
                   fontWeight: FontWeight
-                      .bold, // Cambia el peso de la fuente según tus preferencias
+                      .bold, 
                 ),
               ),
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => MapScreen2()),
-                ); // Cierra el Drawer
-                // Agrega la lógica para navegar a la página "Acerca de" aquí
+                ); 
+                
               },
             ),
           ],
