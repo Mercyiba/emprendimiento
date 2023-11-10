@@ -235,3 +235,11 @@ class _ReportAccessoryFormState extends State<ReportAccessoryForm> {
       ),
     );
   }
+
+  @override
+  void dispose() {
+    nameController.dispose();
+    descriptionController.dispose();
+    super.dispose();
+  }
+}
